@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@500&display=swap');* {
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@500&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -57,10 +59,166 @@
     margin-right: 10px;
 }
 
-/* section{
-    padding: 5em 2em;
-} */
+
+
+/* VERY BEGIN */
+
+.very-begin{
+    padding: 40px 0;
+}
+.very-begin .bolo-maran{
+    width: 60%;
+    padding: 60px 0;
+}
+
+.very-begin h2{
+    font-family: 'Manrope', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 65px;
+color: #1E1B1B;
+margin-bottom: 40px;
+}
+
+.bolo-maran img{
+    color: #E2E6E9;
+    margin-right: 10px;
+    justify-self: center;
+    align-items: center;
+}
+.bolo-maran .open-up{
+    font-family: 'Manrope', sans-serif;
+    display: block;
+}
+
+.bolo-maran p{
+    display: block;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.very-begin .bolo-kini img{
+    max-width: 110%;
+    /* padding: 20px 0; */
+    /* min-height: 100vh; */
+}
+
+
+.very-begin .clock{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-top: 50px;
+}
+
+.very-begin a{
+        text-decoration: none;
+        background-color: #FF6433;
+        color: #fff;
+        font-weight: bold;
+        padding: 16px 40px;
+        border-radius: 10px;
+        font-family: 'Manrope', sans-serif;
+        margin-bottom: 20px;
+    }
+
+
+    /* CAR SERVICE */
+    .car-service{
+        padding: 80px 0;
+        background-color: #E2E6E9;
+    }
+
+    .first-side{
+        width: 40%;
+    }
+
+    .car-service .first-side h2{
+        font-family: 'Manrope', sans-serif;
+       font-style: normal;
+       font-weight: 800;
+       font-size: 50px;
+        line-height: 76px;
+       letter-spacing: -0.03em;
+       color: #1E1B1B;
+    }
+
+    .car-service .services-mode{
+        display: flex;
+        justify-content: center;
+        margin: 30px 0;
+    }
+
+    .car-service .services-mode img{
+        width: 10%;
+        height: 40px;
+        margin-right: 10px;
+        background: #fff;
+        padding: 8px;
+        border-radius: 20px;
+    }
+
+    .car-service .mode{
+        font-family: 'Manrope', sans-serif;
+    }
     
+    .car-service .know-more a{
+        text-decoration: none;
+        color: #1E1B1B;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .car-service .first-side .know-more{
+        padding-left: 100px;
+    }
+    .car-service .know-more img{
+        padding-left: 10px;
+        align-items: center;
+    }
+
+
+    .car-service .second-side{
+        width: 50%;
+    }
+
+    .car-service .second-side h2{
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+         font-size: 48px;
+         line-height: 140%;
+         letter-spacing: -0.03em;
+         color: #1E1B1B;
+         margin-bottom: 30px;
+    }
+
+    .second-side .form-input input{
+        padding: 18px 30px;
+        width: 100%;
+        border: 2px solid #E2E6E9;
+    }
+
+    .car-service .second-side .form-box{
+        margin-bottom: 70px;
+    }
+
+    .car-service .second-side a{
+        text-decoration: none;
+        background-color: #FF6433;
+        color: #fff;
+        padding: 16px 40px;
+        border-radius: 10px;
+        font-family: 'Manrope', sans-serif;
+        /* margin-top: 20px; */
+    }
+
+
+
+
   /* HERO SECTION */
 
 .hero{
@@ -82,7 +240,7 @@
 
 .hero h2{
     color: #1E1B1B;
-    font-size:3.5em;
+    font-size:3em;
     margin-top: 1em;
     margin-bottom: 30px;
     font-family: 'Manrope', sans-serif;
@@ -92,7 +250,7 @@
 .hero p{
     color: #1E1B1B;
     margin-bottom: 40px;
-    width: 70%;
+    width: 80%;
     margin-top: 3px;
     line-height: 30px;
 }
@@ -102,8 +260,7 @@
     background-color: #FF6433;
     font-weight: bold;
     padding: 16px 40px;
-    border-radius: 10px;
-    
+    border-radius: 10px;   
     color: #fff;
     font-family: 'Manrope', sans-serif;
 }
@@ -113,7 +270,7 @@
 }
 
 .hero .right-col{
-    width: 40%;
+    width: 50%;
     display:flex;
     justify-content: center;
 }
@@ -148,16 +305,16 @@
 
 .subright{
     margin-left: 10px;
-    width: -10%;
+    /* width: -10%; */
 }
 .subright h3,p{
     margin-top:15px ;
     font-family: 'Manrope', sans-serif;
-    color: #1E1B1B;
+    color: #1E1B1B !important;
 }
 
 
-}
+
  .right-col p{
   color: #F2F2F2;
   width: 50%;
@@ -194,7 +351,9 @@
      gap: 5px;
      margin-top: 30px;
 }
-
+.features .services-type:hover{
+  background-color: #FF6433;
+}
 .features .services-type{
     background-color:#fff;
     /* margin: 2px; */
@@ -208,18 +367,25 @@
     font-weight: bold;
 }
 
-.features a{
-    text-decoration:none ;
+ .features .learning{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 20px;
+ }
+
+ .features .learning a{
+     text-decoration:none ;
     margin-top: 10px;
     color:#1E1B1B ;
     display: flex;
-    align-items:center;
-    justify-content: space-between;
-    position: absolute;
-    right: 150px;
-    bottom: -730px;
-    
-}
+    justify-content: flex-end;
+    align-items: center;
+ }
+
+ .features .learning img{
+     padding-left: 15px;
+ }
 
 
 /* CONTACT SECTION */
@@ -227,30 +393,7 @@
     background-color: #F2F2F2;
     padding: 80px 0;
 }
-/* .content{
-    background-color:#FF6433 ;
-    width: 30%;
-    height: 200px;
-    padding: 40px 15px;
-    margin-left: 30px; 
-     /* position: absolute;
-    top: 230%; */
-} 
-/* .contact-section .image-section{
-    background-image: url(images/car.png);
-    /* width: 0%; */
-    /* height: 100vh; */
-   
-    
-    /* position: relative; */
-    /* width: 100%; */
-} 
-/* .contact-section h3{
-    color: #fff;
-    font-weight: bold;
-    font-family: 'Manrope', sans-serif;
-    margin-bottom: 40px;
-} */
+
 
 .contact-section a{
     color: #fff;
@@ -259,6 +402,9 @@
     padding: 14px 40px;
     font-family: 'Manrope', sans-serif;
     border-radius: 12px;
+}
+.contact-section .image-section img{
+    width: 100%;
 }
 .rating{
     display: flex;
@@ -294,7 +440,393 @@
     color: #1E1B1B;
     margin-bottom: 30px;
 }
-.brand-section .logos{
-    /* width: 40%; */
-    /* text-align: center; */
+
+
+
+/* COMMENT SECTION */
+
+.comment-section{
+   background-color: #F2F2F2;
+   padding: 80px 0;
+}
+
+.comment-section h2{
+    color: #1E1B1B;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.comment-section .top{
+    display: flex;
+    /* font-weight: 200; */
+}
+
+.comment-section .origin{
+    line-height: 10px;
+    margin: 15px 0 0 10px;
+}
+
+.comment-section .comment-slider{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+  /* margin-left: 40px; */
+
+}
+
+.comment-section .comment{
+    background: #FFFFFF;
+    border: 1px solid rgba(172, 172, 172, 0.29);
+    padding: 30px;
+    box-shadow: 11px 130px 100px 30px rgba(0, 0, 0, 0.02);
+    border-radius: 6px;
+    width: 48%;
+    font-family: 'Manrope', sans-serif;  
+}
+
+.comment-section .main-comment p{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.bottom-slides{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.bottom-slides .lines{
+    /* display: flex; */
+    margin: auto;
+    /* padding: 40px; */
+}
+
+.comment-section .bottom-slides .lines img{
+    padding: 10px;
+}
+
+
+.bottom-slides .arrows{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    /* margin-right: 10px; */
+}
+
+.bottom-slides .white-arrow{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.bottom-slides .black-arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FAQ SECTION */
+
+.Faq-section{
+    background-color: #E2E6E9;
+    padding: 80px 0;
+}
+
+.Faq-section h2{
+    text-align: center;
+    font-family: 'Manrope', sans-serif; 
+    font-weight: 900;
+    font-size: 30px;
+    
+}
+.faq-box{
+    /* border: 1px solid red; */
+    height: 400px;
+    width:60% ;
+    margin: 70px auto;
+    
+}
+
+.faq-header{
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.faq-question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 15px; */
+}
+.faq-box h3{
+   font-family: 'Manrope', sans-serif; 
+   font-weight: bold;
+}
+.faq-box .faq-sign{
+    background: #FF6433;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 8px;
+    /* width: 45px; */
+    /* height: 35px; */
+    cursor: pointer;
+}
+
+.faq-box .faq-answer{
+    font-family: 'Manrope', sans-serif; 
+    width: 80%;  
+    color: #939191;
+    font-size: 13px;
+}
+
+/* GET IN TOUCH SECTION */
+
+.get-in-touch-section{
+    background-color:#1E1B1B;
+    opacity: 0.98;
+    padding: 80px 0;
+    color: #fff;
+}
+
+.get-in-touch-section h2{
+    font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+}
+
+.get-in-touch-section .social-media{
+    margin-top: 60px;
+}
+.get-in-touch-section .social-media img{
+    padding: 0 10px;
+}
+
+.get-in-touch-section .right-side{
+    width: 40%;
+}
+
+.get-in-touch-section .weak{
+    color: #fff !important;
+    opacity: 0.6;
+    font-family: 'Manrope';
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 14px;
+    line-height: 175%;
+    margin-bottom: 5px;
+}
+
+.get-in-touch-section .strong{
+    color: #fff !important;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+   line-height: 36px;
+   letter-spacing: -0.03em;
+   margin-bottom: 5px;
+}
+
+
+/* FOOTER */
+
+footer{
+    background:#000;
+    color: #fff;
+    padding: 40px 0;
+}
+
+footer .main-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-middle ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .footer-middle ul li{
+    list-style: none;
+    padding-left: 50px;
+}
+footer .footer-middle ul a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+}
+
+footer .copyright p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* Tablets and under */
+@media (max-width: 426px) {
+    .main-header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .right-section{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        display: none;
+    }
+    .right-section .navigation ul{ 
+        flex-direction: column;    
+    }
+
+    .right-section .navigation{
+        border: none;
+        width: 100%;
+    }
+
+    .right-section ul li{
+        padding: 10px 0;
+        margin-right: 0;
+    }
+
+    .right-section ul li a{
+        display: block;
+    }
+
+    .road-assistance{ 
+        padding: 10px 0;
+    }
+
+    .flex-sm-column{
+        flex-direction: column;
+    }
+
+    .very-begin .bolo-maran{
+        width: 100%;
+        padding: 0;
+    }
+
+    .very-begin h2{
+       font-size: 50px; 
+       line-height:50px ;
+       width: 150%;
+    }
+
+    .very-begin .bolo-kini img{
+       max-width:160% ;
+    }
+
+    .very-begin .bolo-maran{
+        order:2;
+    }
+
+    .very-begin .bolo-kini{
+        order: 1;
+    }
+
+    .car-service{
+        width: 146%;
+        font-size: 25px;
+    }
+
+    .first-side, .car-service .second-side{
+        width: 100%;
+    }
+
+    .car-service .second-side h2{
+        margin-top: 30px;
+        font-size: 55px;
+    }
+
+    .car-service .know-more a{
+        font-size: 25px;
+    }
+    .second-side .form-input input{
+        width: 110%;
+    }
+
+    .left-col, .hero .right-col{
+        width: 100%;
+    }
+
+    .hero h2{
+        width: 160%;
+        font-size:55px;
+    }
+
+    .hero p {
+        width: 159%;
+        font-size:24px;
+        line-height: 34px;
+    }
+
+    .left-col{
+        margin-bottom: 60px;
+    }
+
+    .subright h3{
+        margin-top: 0;
+    }
+
+    .features, .contact-section,.brand-section, .comment-section, .Faq-section,.get-in-touch-section, footer{
+        width: 146%;
+    }
+    .offers h2{
+        font-size: 38px;
+    }
+    .features .services{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .features .learning a{
+        font-size: 25px;
+    }
+
+    .contact-section .image-section img{
+        width: 106%;
+    }
+
+    .comment-section .comment{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .faq-box{
+        margin-bottom: 200px;
+    }
+    footer .main-footer{
+        flex-direction: column;
+        font-size: 20px;
+    }
+    footer .footer-middle ul li{
+        padding-left: 0;
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 769px) {
+    
 }
