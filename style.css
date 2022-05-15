@@ -603,7 +603,7 @@ margin-bottom: 40px;
 .get-in-touch-section{
     background-color:#1E1B1B;
     opacity: 0.98;
-    padding: 80px 0;
+    padding: 100px 0;
     color: #fff;
 }
 
@@ -827,6 +827,53 @@ footer .copyright p{
     }
 }
 
+/* Tablet View */
+
 @media (max-width: 769px) {
+    .container{
+        width: 90%;
+    }
+    .road-assistance{
+        display: none;
+    }
+
+    .right-section .navigation{
+        border: none;
+    }
+
+    .very-begin h2, .car-service .first-side h2, .car-service .second-side h2, .offers h2{
+        font-size: 24px;
+        line-height:30px;
+    }
+    .car-service .services-mode img{
+        width: 18%;
+    }
     
+    .car-service .first-side .know-more{
+        padding-left: 40px;
+    }
+    .form-input{
+        margin-bottom: 5px;
+    }
+    .hero h2{
+        width: 100%;
+        font-size:35px ;
+    }
+    .hero .right-col{
+        width: 40%;
+    }
+
+    .right-col p{
+        width: 100%;
+    }
+    .features .services{
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .get-in-touch-section h2{
+        font-size: 30px;
+    }
+    footer .footer-middle ul li{
+        padding-left: 10px;
+    }
 }
